@@ -1,0 +1,19 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"pnpm -F server start:dev\" \"pnpm -F web dev --port 3001\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "concurrently": "^10.0.4"
+  }
+}
